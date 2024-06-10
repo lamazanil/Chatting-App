@@ -13,7 +13,7 @@ const noChatSelected = false;
        <>
        <div className="bg-slate-500 px-4 py-2 mb-2">
         <span className='label-text'>To:</span>
-        <span className='text-gray-900 font-bold'> Jhone Doe</span>
+        <span className='text-lg sm:text-xl md:text-2xl font-bold'> Jhone Doe</span>
        </div>
     
        <Messages/>

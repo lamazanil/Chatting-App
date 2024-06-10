@@ -5,7 +5,7 @@ import LogoutButton from '../logout/LogoutButton'
 
 export default function Slidbar() {
   return (
-    <div className='border-right border-slate-500 p-4 flex flex-col'>
+    <div className='border-right border-slate-500 p-4 flex flex-col sm:p-6 md:p-8'>
       <SearchInput/>
       <div className='divider px-3'></div>
       <Conversation/>

@@ -7,7 +7,7 @@ export default function SearchInput() {
       <input
         type="text"
         placeholder="Search..."
-        className="input input-bordered rounded-full"
+        className="input input-bordered rounded-full w-full sm:w-auto md:w-auto"
       />
       <button type="submit" className="btn btn-circle bg-sky-500 text-white">
       <CiSearch size={30}/>
